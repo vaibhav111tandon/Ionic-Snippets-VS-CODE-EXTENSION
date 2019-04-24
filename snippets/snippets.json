@@ -1,0 +1,301 @@
+{
+  "Ionic Tabs": {
+    "prefix": "itabs",
+    "body": [
+      "<ion-tabs>",
+      "<ion-tab tab=\"home\">Home Content</ion-tab>",
+      "<ion-tab tab=\"settings\">Settings Content</ion-tab>",
+      "$0",
+      "<ion-tab-bar slot=\"bottom\">",
+      "$0",
+      "<ion-tab-button tab=\"home\">",
+      "<ion-label>Home</ion-label>",
+      "<ion-icon name=\"home\"></ion-icon>",
+      "<ion-badge>6</ion-badge>",
+      "</ion-tab-button>",
+      "$0",
+      "<ion-tab-button tab=\"settings\">",
+      "<ion-label>Settings</ion-label>",
+      "<ion-icon name=\"settings\"></ion-icon>",
+      "</ion-tab-button>",
+      "$0",
+      "</ion-tab-bar>",
+      "</ion-tabs>"
+    ],
+    "description": "Defines the structure for creating tabs"
+  },
+  "Ionic Badge": {
+    "prefix": "ibadge",
+    "body": ["<ion-badge color=\"primary\">Text</ion-badge>"]
+  },
+  "Ionic Button": {
+    "prefix": "ibutton",
+    "body": [
+      "<ion-button expand=\"full\" fill=\"outline\">Outline + Full</ion-button>"
+    ]
+  },
+  "Ionic Card": {
+    "prefix": "icard",
+    "body": [
+      "<ion-card>",
+      "<ion-card-header>",
+      "<ion-card-subtitle>Card Subtitle</ion-card-subtitle>",
+      "<ion-card-title>Card Title</ion-card-title>",
+      "</ion-card-header>",
+      "$0",
+      "<ion-card-content>",
+      "Keep close to Nature's heart... and break clear away, once in awhile,",
+      "and climb a mountain or spend a week in the woods. Wash your spirit clean.",
+      "</ion-card-content>",
+      "</ion-card>"
+    ]
+  },
+  "Ionic Checkbox": {
+    "prefix": "icheckbox",
+    "body": ["<ion-checkbox checked=\"true\"></ion-checkbox>"]
+  },
+  "Ionic Chip": {
+    "prefix": "ichip",
+    "body": [
+      "<ion-chip>",
+      "<ion-label color=\"secondary\">Secondary Label</ion-label>",
+      "</ion-chip>"
+    ]
+  },
+  "Ionic Content": {
+    "prefix": "icontent",
+    "body": [
+      "<ion-content",
+      "[scrollEvents]=\"true\"",
+      "(ionScrollStart)=\"logScrollStart()\"",
+      "(ionScroll)=\"logScrolling($event)\"",
+      "(ionScrollEnd)=\"logScrollEnd()\">",
+      "</ion-content>"
+    ]
+  },
+  "Ionic DateTime": {
+    "prefix": "idatetime",
+    "body": [
+      "<ion-item>",
+      "<ion-label>Date</ion-label>",
+      "<ion-datetime display-format=\"MMM DD, YYYY HH:mm\"></ion-datetime>",
+      "</ion-item>"
+    ]
+  },
+  "Ionic Fab": {
+    "prefix": "ifab",
+    "body": [
+      "<ion-fab vertical=\"center\" horizontal=\"center\" slot=\"fixed\">",
+      "<ion-fab-button>",
+      "<ion-icon name=\"share\"></ion-icon>",
+      "</ion-fab-button>",
+      "<ion-fab-list side=\"top\">",
+      "<ion-fab-button><ion-icon name=\"logo-vimeo\"></ion-icon></ion-fab-button>",
+      "</ion-fab-list>",
+      "<ion-fab-list side=\"bottom\">",
+      "<ion-fab-button><ion-icon name=\"logo-facebook\"></ion-icon></ion-fab-button>",
+      "</ion-fab-list>",
+      "<ion-fab-list side=\"start\">",
+      "<ion-fab-button><ion-icon name=\"logo-instagram\"></ion-icon></ion-fab-button>",
+      "</ion-fab-list>",
+      "<ion-fab-list side=\"end\">",
+      "<ion-fab-button><ion-icon name=\"logo-twitter\"></ion-icon></ion-fab-button>",
+      "</ion-fab-list>",
+      "</ion-fab>",
+      "</ion-content>"
+    ]
+  },
+  "Ionic Infinite Scroll": {
+    "prefix": "iinfinitescroll",
+    "body": [
+      "<ion-infinite-scroll threshold=\"100px\" (ionInfinite)=\"loadData($event)\">",
+      "<ion-infinite-scroll-content",
+      "loadingSpinner=\"bubbles\"",
+      "loadingText=\"Loading more data...\">",
+      "</ion-infinite-scroll-content>",
+      "</ion-infinite-scroll>"
+    ]
+  },
+  "Ionic Icon": {
+    "prefix": "iicon",
+    "body": ["<ion-icon name=\"add\"></ion-icon>"]
+  },
+  "Ionic Input": {
+    "prefix": "iinput",
+    "body": [
+      "<ion-item>",
+      "<ion-label position=\"floating\">Floating Label</ion-label>",
+      "<ion-input></ion-input>",
+      "</ion-item>"
+    ]
+  },
+  "Ionic Textarea": {
+    "prefix": "itextarea",
+    "body": [
+      "<ion-item>",
+      "<ion-label position=\"floating\">Description</ion-label>",
+      "<ion-textarea></ion-textarea>",
+      "</ion-item>"
+    ]
+  },
+  "Ionic List": {
+    "prefix": "ilist",
+    "body": [
+      "<ion-list>",
+      "<ion-item>",
+      "<ion-label>Pokémon Yellow</ion-label>",
+      "</ion-item>",
+      "<ion-item>",
+      "<ion-label>Mega Man X</ion-label>",
+      "</ion-item>",
+      "<ion-item>",
+      "<ion-label>The Legend of Zelda</ion-label>",
+      "</ion-item>",
+      "<ion-item>",
+      "<ion-label>Pac-Man</ion-label>",
+      "</ion-item>",
+      "<ion-item>",
+      "<ion-label>Super Mario World</ion-label>",
+      "</ion-item>",
+      "</ion-list>"
+    ]
+  },
+  "Ionic Avatar": {
+    "prefix": "iavatar",
+    "body": [
+      "<ion-item>",
+      "<ion-avatar slot=\"start\">",
+      "<img src=\"#\">",
+      "</ion-avatar>",
+      "<ion-label>Item Avatar</ion-label>",
+      "</ion-item>"
+    ]
+  },
+  "Ionic Thumbnail": {
+    "prefix": "ithumbnail",
+    "body": [
+      "<ion-item>",
+      "<ion-thumbnail slot=\"start\">",
+      "<img src=\"#\">",
+      "</ion-thumbnail>",
+      "<ion-label>Item Thumbnail</ion-label>",
+      "</ion-item>"
+    ]
+  },
+  "Ionic Menu": {
+    "prefix": "imenu",
+    "body": [
+      "<ion-menu side=\"start\" menuId=\"first\">",
+      "<ion-header>",
+      "<ion-toolbar color=\"primary\">",
+      "<ion-title>Start Menu</ion-title>",
+      "</ion-toolbar>",
+      "</ion-header>",
+      "<ion-content>",
+      "<ion-list>",
+      "<ion-item>Menu Item</ion-item>",
+      "<ion-item>Menu Item</ion-item>",
+      "<ion-item>Menu Item</ion-item>",
+      "<ion-item>Menu Item</ion-item>",
+      "<ion-item>Menu Item</ion-item>",
+      "</ion-list>",
+      "</ion-content>",
+      "</ion-menu>"
+    ]
+  },
+  "Ionic Backdrop": {
+    "prefix": "ibackdrop",
+    "body": ["<ion-backdrop tappable=\"false\"></ion-backdrop>"]
+  },
+  "Ionic Progress Bar": {
+    "prefix": "iprogress",
+    "body": [
+      "<ion-progress-bar color=\"primary\" value=\"0.5\"></ion-progress-bar>"
+    ]
+  },
+  "Ionic Spinner": {
+    "prefix": "ispinner",
+    "body": ["<ion-spinner name=\"lines\"></ion-spinner>"]
+  },
+  "Ionic Radio": {
+    "prefix": "iradio",
+    "body": [
+      "<ion-radio-group>",
+      "<ion-list-header>",
+      "<ion-label>Name</ion-label>",
+      "</ion-list-header>",
+      "$0",
+      "<ion-item>",
+      "<ion-label>Biff</ion-label>",
+      "<ion-radio slot=\"start\" value=\"biff\" checked></ion-radio>",
+      "</ion-item>",
+      "$0",
+      "<ion-item>",
+      "<ion-label>Griff</ion-label>",
+      "<ion-radio slot=\"start\" value=\"griff\"></ion-radio>",
+      "</ion-item>",
+      "$0",
+      "<ion-item>",
+      "<ion-label>Buford</ion-label>",
+      "<ion-radio slot=\"start\" value=\"buford\"></ion-radio>",
+      "</ion-item>",
+      "</ion-radio-group>"
+    ]
+  },
+  "Ionic Range": {
+    "prefix": "irange",
+    "body": [
+      "<ion-item>",
+      "<ion-range color=\"danger\" pin=\"true\"></ion-range>",
+      "</ion-item>"
+    ]
+  },
+  "Ionic SearchBar": {
+    "prefix": "isearchbar",
+    "body": ["<ion-searchbar value=\"Ionic\"></ion-searchbar>"]
+  },
+  "Ionic Segment": {
+    "prefix": "isegment",
+    "body": [
+      "<ion-segment (ionChange)=\"segmentChanged($event)\">",
+      "<ion-segment-button value=\"friends\">",
+      "<ion-label>Friends</ion-label>",
+      "</ion-segment-button>",
+      "<ion-segment-button value=\"enemies\">",
+      "<ion-label>Enemies</ion-label>",
+      "</ion-segment-button>",
+      "</ion-segment>"
+    ]
+  },
+  "Ionic Select": {
+    "prefix": "iselect",
+    "body": [
+      "<ion-item>",
+    "<ion-label>Pets</ion-label>",
+    "<ion-select multiple=\"true\">",
+      "<ion-select-option value=\"bird\" selected>Bird</ion-select-option>",
+      "<ion-select-option value=\"cat\">Cat</ion-select-option>",
+      "<ion-select-option value=\"dog\" selected>Dog</ion-select-option>",
+      "<ion-select-option value=\"honeybadger\">Honey Badger</ion-select-option>",
+    "</ion-select>",
+  "</ion-item>"
+    ]
+  },
+  "Ionic Toggle": {
+    "prefix": "itoggle",
+    "body": [
+      "<ion-toggle color=\"primary\"></ion-toggle>"
+    ]
+  },
+  "Ionic ToolBar": {
+    "prefix": "itoolbar",
+    "body": [
+      "<ion-toolbar>",
+  "<ion-buttons slot=\"start\">",
+    "<ion-back-button></ion-back-button>",
+  "</ion-buttons>",
+  "<ion-title>Back Button</ion-title>",
+"</ion-toolbar>"
+    ]
+  }
+}
